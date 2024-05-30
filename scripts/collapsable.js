@@ -14,7 +14,7 @@ var chart_config = {
     innerHTML: `
         <div class="node-content level-1">
         <h1>Smartphones | Apple</h1>
-        <p>N SKU's | 3 main models</p>
+        <p>N SKU's | 2 main models</p>
         </div>
     `,
     collapsable: true,
