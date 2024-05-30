@@ -1,0 +1,32 @@
+.node-content {
+    text-align: center;
+    padding: 0.5rem 1rem;
+}
+
+.node-content > h1 {
+    font-size: 1.5rem;
+}
+
+.node-content > h2 {
+    font-size: 1.25rem;
+}
+
+.node-content > h3 {
+    font-size: 1.125rem;
+}
+
+.node-content > h4 {
+    font-size: 1rem;
+}
+
+.node-content > h5 {
+    font-size: 0.85rem;
+}
+
+.node-content > .h6 {
+    font-size: 0.75rem;
+}
+
+.node-content > p {
+    font-size: .7rem;
+}
