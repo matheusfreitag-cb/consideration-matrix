@@ -76,8 +76,6 @@ body {
   width: 100%;
 }
 .Treant > .node {
-  padding: 3px;
-  border: 1px solid #484848;
   border-radius: 5px;
   width: max-content;
 }
@@ -87,7 +85,9 @@ body {
   border: none;
 }
 .Treant .node.collapsed {
-  background-color: #0090e3;
+  border: 3px solid #e3c500;
+  border-radius: 5px 3px;
+
 }
 .Treant .node.collapsed .collapse-switch {
   background: none;

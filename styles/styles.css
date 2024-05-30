@@ -1,32 +1,85 @@
+* {
+  font-family: sans-serif;
+}
+
 .node-content {
-    text-align: center;
-    padding: 0.5rem 1rem;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.level-1 {
+  background-color: #345ea6;
+}
+
+.level-1 > p {
+  color: white;
+}
+
+.level-2 {
+  background-color: #5187ed;
+}
+
+.level-2 > p {
+  color: white;
+}
+
+.level-3 {
+  background-color: #f9e6d0;
+  color: #f4ae56;
+}
+
+.level-4 {
+  background-color: #dce9d5;
+  color: #4195a5;
+}
+
+.level-5 {
+  background-color: #d8d3e7;
+  color: #7b59e0;
+}
+
+.level-6 {
+  background-color: #d1e9f7;
+  color: #4195a5;
 }
 
 .node-content > h1 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
 }
 
 .node-content > h2 {
-    font-size: 1.25rem;
+  font-size: 1.25rem;
+  color: white;
+  font-weight: bold;
 }
 
 .node-content > h3 {
-    font-size: 1.125rem;
+  font-size: 1.125rem;
+  font-weight: bold;
 }
 
 .node-content > h4 {
-    font-size: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .node-content > h5 {
-    font-size: 0.85rem;
+  font-size: 0.85rem;
+  font-weight: bold;
 }
 
 .node-content > .h6 {
-    font-size: 0.75rem;
+  font-size: 0.75rem;
 }
 
 .node-content > p {
-    font-size: .7rem;
+  font-size: 0.7rem;
+}
+
+path {
+    stroke: #c0c0c0;
+    opacity: 0.5;
 }
